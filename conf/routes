@@ -1,0 +1,20 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Uncomment this default route to start !
+GET			/							Application.index
+GET         /sample1                    Sample1.index
+GET         /sample2                    Sample2.index
+GET         /sample3                    Sample3.index
+GET         /sample4                    Sample4.index
+GET         /sample5                    Sample5.index
+GET         /sample6                    Sample6.index
+GET         /sample7                    Sample7.index
+GET         /jsontest                   JsonTest.index
+
+# Map static resources from the app/public folder to /public
+GET			/public						staticDir:public
+
+# Catch all
+*			/{controller}/{action}		{controller}.{action}
