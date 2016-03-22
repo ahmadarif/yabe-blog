@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 bin/
 data/
 db/
@@ -7,3 +8,20 @@ test-result/
 lib/
 tmp/
 modules/
+=======
+# Ignore Play! working directory #
+bin/
+/db
+.eclipse
+/lib/
+/logs/
+/modules
+/project/target
+/target
+tmp/
+test-result
+server.pid
+*.eml
+/dist/
+.cache
+>>>>>>> 4620f060ec2deaeecc90b1b183594c63230d225f
